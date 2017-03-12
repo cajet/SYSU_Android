@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/widgetSetupTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setupTime" />
+
+    <TextView
+        android:id="@+id/widgetDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/widgetSetupTime"
+        android:layout_toEndOf="@+id/widgetSetupTime"/>
+
+    <TextView
+        android:id="@+id/widgetTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/widgetSetupTime"/>
+
+    <TextView
+        android:id="@+id/widgetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/widgetTheme"/>
+
+    <TextView
+        android:id="@+id/widgetState"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@+id/widgetText"/>
+
+    <TextView
+        android:id="@+id/widgetDeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widgetState"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/widgetDeadTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/widgetState"
+        android:layout_toRightOf="@+id/widgetDeadline"
+        android:layout_toEndOf="@+id/widgetDeadline"/>
+
+</RelativeLayout>

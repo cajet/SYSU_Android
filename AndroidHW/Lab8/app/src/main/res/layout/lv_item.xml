@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cajet"
+        android:width="100dp" />
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/birthText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.22"
+        android:width="80dp" />
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/giftText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="iphone7" />
+</LinearLayout>
